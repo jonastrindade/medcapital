@@ -9,6 +9,14 @@ $purple: #d191f7;
 	background: $purple;
 }
 
+.text-purple {
+	color: $purple;
+}
+
+a:link {
+  color: $purple;
+}
+
 .file-input {
 	width: 0.1px;
 	height: 0.1px;

@@ -27,5 +27,8 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
+    <% if user_signed_in? %>
+      <%= link_to "Sign Out", destroy_user_session_path, method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-dark' %>
+    <% end %>
   </div>
 </nav>
